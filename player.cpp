@@ -1065,15 +1065,15 @@ void Player::sendCancelMessage(ReturnValue message) const
 			break;
 
 		case RET_NOTMOVABLE:
-			sendCancel("Você não pode mover este objeto.");
+			sendCancel("Voce nao pode mover este objeto.");
 			break;
 
 		case RET_DROPTWOHANDEDITEM:
-			sendCancel("Drope o item de duas mãos primeiro.");
+			sendCancel("Drope o item de duas maos primeiro.");
 			break;
 
 		case RET_BOTHHANDSNEEDTOBEFREE:
-			sendCancel("Ambas as mãos precisam estar livres.");
+			sendCancel("Ambas as maos precisam estar livres.");
 			break;
 
 		case RET_CANNOTBEDRESSED:
@@ -1081,15 +1081,15 @@ void Player::sendCancelMessage(ReturnValue message) const
 			break;
 
 		case RET_PUTTHISOBJECTINYOURHAND:
-			sendCancel("Equipe o objeto em sua m�o.");
+			sendCancel("Equipe o objeto em sua mao.");
 			break;
 
 		case RET_PUTTHISOBJECTINBOTHHANDS:
-			sendCancel("Coloque o objeto em ambas as mãos.");
+			sendCancel("Coloque o objeto em ambas as maos.");
 			break;
 
 		case RET_CANONLYUSEONEWEAPON:
-			sendCancel("Você pode usar apenas uma arma.");
+			sendCancel("Voce pode usar apenas uma arma.");
 			break;
 
 		case RET_TOOFARAWAY:
@@ -1105,128 +1105,128 @@ void Player::sendCancelMessage(ReturnValue message) const
 			break;
 
 		case RET_NOTENOUGHCAPACITY:
-			sendCancel("Você não possui CAP suficiente.");
+			sendCancel("Voce nao possui CAP suficiente.");
 			break;
 
 		case RET_CONTAINERNOTENOUGHROOM:
-			sendCancel("Você não pode colocar mais objetos aqui.");
+			sendCancel("Voce nao pode colocar mais objetos aqui.");
 			break;
 
 		case RET_NEEDEXCHANGE:
 		case RET_NOTENOUGHROOM:
-			sendCancel("não há espaço suficiente.");
+			sendCancel("Nao ha espaco suficiente.");
 			break;
 
 		case RET_CANNOTPICKUP:
-			sendCancel("Você não pode pegar esse objeto.");
+			sendCancel("Voce nao pode pegar esse objeto.");
 			break;
 
 		case RET_CANNOTTHROW:
-			sendCancel("Você não pode jogar lá.");
+			sendCancel("Voce nao pode jogar la.");
 			break;
 
 		case RET_THEREISNOWAY:
-			sendCancel("não tem jeito.");
+			sendCancel("Nao tem jeito.");
 			break;
 
 		case RET_THISISIMPOSSIBLE:
-			sendCancel("Isso é impossével.");
+			sendCancel("Isso e impossivel.");
 			break;
 
 		case RET_PLAYERISPZLOCKED:
-			sendCancel("Você não pode entrar em Protect Zone.");
+			sendCancel("Voce nao pode entrar em Protect Zone.");
 			break;
 
 		case RET_PLAYERISNOTINVITED:
-			sendCancel("Você não está Invitado.");
+			sendCancel("Voce nao esta Invitado.");
 			break;
 
 		case RET_CREATUREDOESNOTEXIST:
-			sendCancel("Criatura não encontrada.");
+			sendCancel("Criatura nao encontrada.");
 			break;
 
 		case RET_DEPOTISFULL:
-			sendCancel("Seu Depot está lotado, faça uma limpa e libere novos espaços.");
+			sendCancel("Seu Depot esta lotado, faca uma limpa e libere novos espaços.");
 			break;
 
 		case RET_CANNOTUSETHISOBJECT:
-			sendCancel("Você não pode usar esse objeto.");
+			sendCancel("Voce nao pode usar esse objeto.");
 			break;
 
 		case RET_PLAYERWITHTHISNAMEISNOTONLINE:
-			sendCancel("O Jogador com esse nome não está online.");
+			sendCancel("O Jogador com esse nome nao esta online.");
 			break;
 
 		case RET_NOTREQUIREDLEVELTOUSERUNE:
-			sendCancel("Você não possui Ninjutsu suficiente para utilizar esse item.");
+			sendCancel("Voce nao possui Ninjutsu suficiente para utilizar esse item.");
 			break;
 
 		case RET_YOUAREALREADYTRADING:
-			sendCancel("Você já está em Trade, termine para negociar novamente.");
+			sendCancel("Voce ja esta em Trade, termine para negociar novamente.");
 			break;
 
 		case RET_THISPLAYERISALREADYTRADING:
-			sendCancel("Este jogador já está negociando com alguém.");
+			sendCancel("Este jogador ja esta negociando com alguem.");
 			break;
 
 		case RET_YOUMAYNOTLOGOUTDURINGAFIGHT:
-			sendCancel("Você não pode se desconectar estando em modo batalha.");
+			sendCancel("Voce nao pode se desconectar estando em modo batalha.");
 			break;
 
 		case RET_DIRECTPLAYERSHOOT:
-			sendCancel("Você não tem permissão para atirar diretamente em outros jogadores.");
+			sendCancel("Voce nao tem permissao para atirar diretamente em outros jogadores.");
 			break;
 
 		case RET_NOTENOUGHLEVEL:
-			sendCancel("Você não tem Level necessário.");
+			sendCancel("Voce nao tem Level necessario.");
 			break;
 
 		case RET_NOTENOUGHMAGICLEVEL:
-			sendCancel("Você não tem Ninjutsu necessário.");
+			sendCancel("Voce nao tem Ninjutsu necessario.");
 			break;
 
 		case RET_NOTENOUGHMANA:
-			sendCancel("Você não tem Chakra suficiente.");
+			sendCancel("Voce nao tem Chakra suficiente.");
 			break;
 
 		case RET_NOTENOUGHSOUL:
-			sendCancel("Você não tem Soul suficiente.");
+			sendCancel("Voce nao tem Soul suficiente.");
 			break;
 
 		case RET_YOUAREEXHAUSTED:
-			sendCancel("Você está cansado.");
+			sendCancel("Voce esta cansado.");
 			break;
 
 		case RET_CANONLYUSETHISRUNEONCREATURES:
-			sendCancel("Você apenas pode usar em criaturas.");
+			sendCancel("Voce apenas pode usar em criaturas.");
 			break;
 
 		case RET_PLAYERISNOTREACHABLE:
-			sendCancel("O Jogador não está acessível.");
+			sendCancel("O Jogador nao esta acessivel.");
 			break;
 
 		case RET_CREATUREISNOTREACHABLE:
-			sendCancel("A Criatura não está acessível.");
+			sendCancel("A Criatura nao esta acessivel.");
 			break;
 
 		case RET_ACTIONNOTPERMITTEDINPROTECTIONZONE:
-			sendCancel("ação não permitida em Protect Zone.");
+			sendCancel("Acao nao permitida em Protect Zone.");
 			break;
 
 		case RET_YOUMAYNOTATTACKTHISPLAYER:
-			sendCancel("Você não pode atacar este jogador.");
+			sendCancel("Voce nao pode atacar este jogador.");
 			break;
 
 		case RET_YOUMAYNOTATTACKTHISCREATURE:
-			sendCancel("Você não pode atacar esta criatura.");
+			sendCancel("Voce nao pode atacar esta criatura.");
 			break;
 
 		case RET_YOUMAYNOTATTACKAPERSONINPROTECTIONZONE:
-			sendCancel("Você não pode atacar um jogador em Protect Zone.");
+			sendCancel("Voce nao pode atacar um jogador em Protect Zone.");
 			break;
 
 		case RET_YOUMAYNOTATTACKAPERSONWHILEINPROTECTIONZONE:
-			sendCancel("Você não pode atacar alguém enquanto estiver em Protect Zone.");
+			sendCancel("Voce nao pode atacar alguem enquanto estiver em Protect Zone.");
 			break;
 
 		case RET_YOUCANONLYUSEITONCREATURES:
@@ -1238,79 +1238,79 @@ void Player::sendCancelMessage(ReturnValue message) const
 			break;
 
 		case RET_YOUNEEDPREMIUMACCOUNT:
-			sendCancel("Você precisa de Premium Account.");
+			sendCancel("Voce precisa de Premium Account.");
 			break;
 
 		case RET_YOUNEEDTOLEARNTHISSPELL:
-			sendCancel("Você precisa aprender esse Jutsu primeiro.");
+			sendCancel("Voce precisa aprender esse Jutsu primeiro.");
 			break;
 
 		case RET_YOURVOCATIONCANNOTUSETHISSPELL:
-			sendCancel("Seu personagem não possui este jutsu.");
+			sendCancel("Seu personagem nao possui este jutsu.");
 			break;
 
 		case RET_YOUNEEDAWEAPONTOUSETHISSPELL:
-			sendCancel("Você precisa equipar uma arma para usar este jutsu.");
+			sendCancel("Voce precisa equipar uma arma para usar este jutsu.");
 			break;
 
 		case RET_PLAYERISPZLOCKEDLEAVEPVPZONE:
-			sendCancel("Você não pode deixar a Arena.");
+			sendCancel("Voce nao pode deixar a Arena.");
 			break;
 
 		case RET_PLAYERISPZLOCKEDENTERPVPZONE:
-			sendCancel("Você não pode entrar na Arena.");
+			sendCancel("Voce nao pode entrar na Arena.");
 			break;
 
 		case RET_ACTIONNOTPERMITTEDINANOPVPZONE:
-			sendCancel("Esta ação não é permitida em Protect Zone.");
+			sendCancel("Esta acao nao e permitida em Protect Zone.");
 			break;
 
 		case RET_YOUCANNOTLOGOUTHERE:
-			sendCancel("Você não pode desconectar aqui.");
+			sendCancel("Voce nao pode desconectar aqui.");
 			break;
 
 		case RET_YOUNEEDAMAGICITEMTOCASTSPELL:
-			sendCancel("Você precisa de um item mágico para usar este jutsu.");
+			sendCancel("Voce precisa de um item mágico para usar este jutsu.");
 			break;
 
 		case RET_CANNOTCONJUREITEMHERE:
-			sendCancel("Você não pode conjurar aqui.");
+			sendCancel("Voce nao pode conjurar aqui.");
 			break;
 
 		case RET_NAMEISTOOAMBIGUOUS:
-			sendCancel("Nome muito ambíguo.");
+			sendCancel("Nome muito ambiguo.");
 			break;
 
 		case RET_CANONLYUSEONESHIELD:
-			sendCancel("Você pode usar apenas um escudo.");
+			sendCancel("Voce pode usar apenas um escudo.");
 			break;
 
 		case RET_YOUARENOTTHEOWNER:
-			sendCancel("Você não é dono.");
+			sendCancel("Voce nao e dono.");
 			break;
 
 		case RET_YOUMAYNOTCASTAREAONBLACKSKULL:
-			sendCancel("Você não pode usar jutsus de area enquanto estiver Red/Black Skull.");
+			sendCancel("Voce nao pode usar jutsus de area enquanto estiver Red/Black Skull.");
 			break;
 
 		case RET_TILEISFULL:
-			sendCancel("Você não pode mais empilhar items nesse SQM.");
+			sendCancel("Voce nao pode mais empilhar items nesse SQM.");
 			break;
 
 		case RET_NOTENOUGHSKILL:
-			sendCancel("Você não tem Skill suficiente.");
+			sendCancel("Voce nao tem Skill suficiente.");
 			break;
 
 		case RET_NOTPOSSIBLE:
-			sendCancel("Desculpe, não é possível.");
+			sendCancel("Desculpe, nao e possivel.");
 			break;
 
 		case RET_YOUMAYNOTATTACKIMMEDIATELYAFTERLOGGINGIN:
-			sendCancel("Você não pode atacar de imediato ao se conectar.");
+			sendCancel("Voce nao pode atacar de imediato ao se conectar.");
 			break;
 
 		case RET_YOUHAVETOWAIT:
-			sendCancel("Desculpe, Você precisa aguardar.");
+			sendCancel("Desculpe, Voce precisa aguardar.");
 			break;
 
 		case RET_YOUCANONLYTRADEUPTOX:
@@ -2238,7 +2238,7 @@ void Player::addExperience(uint64_t exp)
 			(*it)->executeAdvance(this, SKILL__LEVEL, prevLevel, level);
 
 		std::stringstream s;
-		s << "Você avanãou do Level " << prevLevel << " para o Level " << level << ".";
+		s << "Voce avanaou do Level " << prevLevel << " para o Level " << level << ".";
 
 		sendTextMessage(MSG_EVENT_ADVANCE, s.str());
 		if(isProtected() != attackable)
@@ -2290,7 +2290,7 @@ void Player::removeExperience(uint64_t exp, bool updateStats/* = true*/)
 			(*it)->executeAdvance(this, SKILL__LEVEL, prevLevel, level);
 
 		std::stringstream s;
-		s << "Você regrediu do Level " << prevLevel << " para o Level " << level << ".";
+		s << "Voce regrediu do Level " << prevLevel << " para o Level " << level << ".";
 
 		sendTextMessage(MSG_EVENT_ADVANCE, s.str());
 		if(!isProtected() != attackable)
@@ -5737,7 +5737,7 @@ bool Player::addOfflineTrainingTries(skills_t skill, int32_t tries)
 		}
 
 		newSkillValue = magLevel;
-		ss << "Você upou Ninjutsu para Level [" << magLevel << "].";
+		ss << "Voce upou Ninjutsu para Level [" << magLevel << "].";
 		sendTextMessage(MSG_EVENT_ADVANCE, ss.str().c_str());
 		ss.str("");
 	}
